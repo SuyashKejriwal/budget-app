@@ -1,0 +1,89 @@
+body{
+ background: white;
+color: black;
+}
+.budget-feedback,.expense-feedback{
+display: none;
+}
+.budget-form{
+border: 0.15rem solid rgb(33, 172, 33);
+padding: 1rem;
+border-radius: 0.25rem;
+}
+
+.expense-form{
+    border: 0.15rem solid rgb(224, 21, 21);
+    padding: 1rem;
+    border-radius: 0.25rem;
+    }
+
+.budget-submit{
+background: transparent;
+border: 0.15rem solid rgb(20, 179, 20);
+padding: 0.3rem;
+color: rgb(20, 179, 20);
+border-radius: 0.25rem;
+}
+
+.expense-submit{
+background: transparent;
+border: 0.15rem solid rgb(218, 14, 14);
+padding: 0.3rem;
+color: rgb(216, 16, 16);
+border-radius: 0.25rem;
+}
+
+.budget-input{
+    border: 0.1rem solid rgb(13, 150, 97) !important;
+    border-radius: 0.25rem;
+}
+
+.expense-input{
+    border: 0.1rem solid rgb(228, 79, 10) !important;
+    border-radius: 0.25rem;
+}
+
+.expense-amount,
+.expense-title{
+    color: red;
+}
+
+.info-title{
+    font-size: 1.3rem;
+}
+.budget{
+    font-size: 1.4rem;
+    color: green;
+}
+
+.expense{
+    font-size: 1.4rem;
+    color: red;
+}
+
+.balance{
+    font-size: 1.4rem;
+}
+
+.showItem{
+    display: block;
+}
+
+.showRed{
+    color: red;
+}
+.showGreen{
+    color: green;
+}
+.showBlack{
+    color: black;
+}
+.budget-icon,
+.expense-icon,
+.balance-icon{
+    font-size: 2.5rem;
+    color: rgb(31, 98, 187);
+}
+.delete-icon{
+    color: red;
+}
